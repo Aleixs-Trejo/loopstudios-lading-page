@@ -92,6 +92,7 @@ input[type="number"]::-webkit-outer-spin-button{
 /***************** HERO *****************/
 .hero{
   position: relative;
+  background-color: #ccc;
 }
 
 .hero__container{
@@ -102,6 +103,10 @@ input[type="number"]::-webkit-outer-spin-button{
   &.container{
     width: 100%;
   }
+}
+
+.hero__picture{
+  mix-blend-mode: multiply;
 }
 
 .hero__img{
@@ -181,7 +186,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 .hero__title{
-  font-size: clamp(1.5rem, 8vw, 3rem);
+  font-size: clamp(1.5rem, 7vw, 4rem);
   color: #fff;
   text-transform: uppercase;
   font-weight: 300;
@@ -393,7 +398,7 @@ input[type="number"]::-webkit-outer-spin-button{
 @media screen and (width >= 768px) {
   /***************** UTILITIES *****************/
   .body{
-    gap: 5rem;
+    gap: 7rem;
   }
 
   /***************** HERO *****************/
@@ -428,14 +433,14 @@ input[type="number"]::-webkit-outer-spin-button{
   }
 
   .hero__text.container{
-    width: 50%;
+    width: 55%;
     margin: auto auto auto 2rem;
     border-color: var(--dark-gray);
   }
 
   /***************** MAIN *****************/
   .main{
-    gap: 5rem;
+    gap: 7rem;
   }
 
   .section__main__content{
@@ -491,6 +496,7 @@ input[type="number"]::-webkit-outer-spin-button{
   .article__cta{
     grid-area: header2;
     width: 100%;
+    text-align: end;
   }
 
   .cta{
