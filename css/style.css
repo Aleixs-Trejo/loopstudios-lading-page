@@ -242,7 +242,7 @@ input[type="number"]::-webkit-outer-spin-button{
 
 .articles__title{
   grid-area: header1 / header2;
-  font-size: clamp(1.5rem, 4vw, 1.75rem);
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
   text-transform: uppercase;
   font-weight: 300;
   font-family: var(--font-josefin);
@@ -391,6 +391,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 .footer__copyright{
+  font-size: clamp(0.75rem, 3vw, 1rem);
   color: var(--dark-gray);
 }
 
@@ -491,6 +492,7 @@ input[type="number"]::-webkit-outer-spin-button{
 
   .article__text{
     padding: 2rem;
+    background-image: linear-gradient(to top, #0008 5%, transparent);
   }
 
   .article__cta{
@@ -515,6 +517,10 @@ input[type="number"]::-webkit-outer-spin-button{
 
   .footer__socials{
     align-items: flex-end;
+  }
+
+  .social__links{
+    gap: 1.5rem;
   }
 }
 
